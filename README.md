@@ -162,7 +162,7 @@ It is better to use Assembler routines as they will allow for using LPRINT and L
 
 Another assembly routine provided is one that prints the screen in 3x the size, with shading. This was printed in the magazine [Your Spectrum, Issue 4, June 1984](http://www.users.globalnet.co.uk/~jg27paw4/yr04/yr04_55.htm), by Andrew Pennell. I have adapted it to use this interface.
 
-I have used [PASMO](https://pasmo.speccy.org/ "PASMO") to assemble the sources, but you can use any other Z80 assembler. BASIC files were converted to .tap wit [bas2tap](https://github.com/speccyorg/bas2tap "bas2tap"). Tape to WAV conversion was done with [zxtap-to-wav](https://github.com/raydac/zxtap-to-wav "zxtap-to-wav"
+I have used [PASMO](https://pasmo.speccy.org/ "PASMO") to assemble the sources, but you can use any other Z80 assembler. BASIC files were converted to .tap wit [bas2tap](https://github.com/speccyorg/bas2tap "bas2tap"). Tape to WAV conversion was done with [zxtap-to-wav](https://github.com/raydac/zxtap-to-wav "zxtap-to-wav")
 
 Revision history
 ----------------
