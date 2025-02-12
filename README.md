@@ -61,28 +61,28 @@ Some printers require pin 17 (/SELECT) pulled low. In case your printer doesn't 
 
 #### 40-pin connector
 
-| Pin | Function | Function | Pin |
-|:---:|:------ -:|:--------:|:---:|
-| 1   | A0       | A1       | 2   |
-| 3   | A2       | A3       | 4   |
-| 5   | A4       | A5       | 6   |
-| 7   | A6       | A7       | 8   |
-| 9   | GND      | GND      | 10  |
-| 11  | GND      | GND      | 12  |
-| 13  | C0       | C1       | 14  |
-| 15  | C2       | C3       | 16  |
-| 17  | C4       | C5       | 18  |
-| 19  | C6       | C7       | 20  |
-| 21  | GND      | GND      | 22  |
-| 23  | GND      | GND      | 24  |
-| 25  | B0       | B1       | 26  |
-| 27  | B2       | B3       | 28  |
-| 29  | B4       | B5       | 30  |
-| 31  | B6       | B7       | 32  |
-| 33  | NC       | NC       | 34  |
-| 35  | +9V      | +9V      | 36  |
-| 37  | NC       | NC       | 38  |
-| 39  | +5V      | +5V      | 40  |
+| Pin | Function | | Function | Pin |
+|:---:|:--------:|-|:--------:|:---:|
+| 1   | A0       | | A1       | 2   |
+| 3   | A2       | | A3       | 4   |
+| 5   | A4       | | A5       | 6   |
+| 7   | A6       | | A7       | 8   |
+| 9   | GND      | | GND      | 10  |
+| 11  | GND      | | GND      | 12  |
+| 13  | C0       | | C1       | 14  |
+| 15  | C2       | | C3       | 16  |
+| 17  | C4       | | C5       | 18  |
+| 19  | C6       | | C7       | 20  |
+| 21  | GND      | | GND      | 22  |
+| 23  | GND      | | GND      | 24  |
+| 25  | B0       | | B1       | 26  |
+| 27  | B2       | | B3       | 28  |
+| 29  | B4       | | B5       | 30  |
+| 31  | B6       | | B7       | 32  |
+| 33  | NC       | | NC       | 34  |
+| 35  | +9V      | | +9V      | 36  |
+| 37  | NC       | | NC       | 38  |
+| 39  | +5V      | | +5V      | 40  |
 
 The connector is wired directly to the 8255 ports. +5v and +9v are from the ZX Spectrum regulator and power supply respectively. As the +5v regulator in an 48k ZX Spectrum is already at its limits, this power supply can be used only for simple logic, not for driving motors etc. For +9v output, I recommend using maximum 200mA.
 
